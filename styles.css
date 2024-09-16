@@ -1,16 +1,27 @@
+html{
+    overflow-x: hidden;
+}
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
     margin: 0px;
     display: flex;
+    justify-content: center;
+    padding: 16px 100px;
+}
+.header-content {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 16px 80px;
+    width: 1000px;
 }
 
 .header-text {
     margin: 0;
     padding: 0;
     font-weight: bold;
+    font-size: 24px;
 }
 
 ul {
@@ -22,8 +33,9 @@ ul {
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #b3b4b6;
     margin: 0px 0px 0px 16px;
+    font-size: 18px;
 }
 
 body {
@@ -34,6 +46,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-bottom: 58px;
 }
 
 .body {
@@ -41,6 +54,76 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    padding: 36px 100px 60px 100px;
+    margin: 0px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.section-one-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    width: 1000px;
+}
+
+.hero-main {
+    max-width: 450px;
+    max-height: 300px;
+    padding: 0px 0px;
+    margin: 0px 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-main h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900px;
+}
+
+.hero-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    padding: 8px;
+    font-size: 16px;
+    width: 120px;
+}
+.subtext {
+    font-size: 18px;
+    color: #b3b4b6;
+}
+
+.section-two-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-two-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+}
+
+.section-two-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 100px;
+    margin: 16px;
 }
 
 .footer {
